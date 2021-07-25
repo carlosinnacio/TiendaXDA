@@ -1,0 +1,62 @@
+.navigation {
+    width: 100%;
+    height: auto;
+    background-color: $white;
+    display: inline-block;
+    position: relative;
+}
+.navigation__logo {
+    width: 40px;
+    height: auto;
+    background-color: $smoky-black;
+    font-family: $oldstd;
+    font-size: $bold;
+    font-size: $x-large;
+    color: $white;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    
+}
+
+.navigation__menu {
+    text-align: right;
+    margin-top: auto;
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+}
+
+.navigation__menu-item {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    font-family: $raleway;
+    font-weight: $bold;
+}
+
+.collapsible {
+    text-align: right;
+    label {
+    display: block;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-right: 1.5em;
+    font-size: 1.8rem;
+    }
+}
+
+#menu {
+    display: none;
+}
+
+input:checked ~ .navigation__menu {
+    max-height: 100%;
+}
+
+.navigation__menu {
+    min-height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+

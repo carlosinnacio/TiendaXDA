@@ -1,0 +1,22 @@
+.main-article1__button {
+    width: 100px;
+    height: 40px;
+    border: solid $smoky-black 1px;
+    background-color: $white;
+    color: $smoky-black;
+    text-align: center;
+    font-family: $raleway;
+    font-weight: $bold;
+}
+
+.main-article2__button {
+    width: 200px;
+    height: 30px;
+    border: solid $smoky-black 1px;
+    background-color: $white;
+    color: $granite-gray;
+    text-align: center;
+    font-family: $raleway;
+    font-weight: $regular;
+    margin-left: 40px;
+}
